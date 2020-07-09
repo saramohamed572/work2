@@ -1,0 +1,133 @@
+.image-circle{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+h6{
+  margin-left: 10px;
+  text-align: center;
+  color: blue;
+}
+body{
+  font-family: 'Fondamento', cursive;
+}
+/*************************************************section dashboard*****************************************/
+.dash{
+  border-bottom: solid;
+  border-radius: 10px;
+  border-color: gray;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 15px 0px 15px 20px;
+  border-top: 5%;
+
+}
+/* <!-------------------------------------------- right side section ----------------------------------------> */
+
+#new-widget{
+  border:solid;
+  border-color: #e4e7e2;
+  width: 200px;
+  height: 50px;
+  margin: 3% 5% 10% 5%;
+}
+.grid-stack-item-removing {
+  opacity: 0.8;
+  filter: blur(5px);
+}
+
+#trash {
+  padding: 10px;
+   margin: 10px 0px 5px 15px;
+   border-style: dotted;
+   border-color: #e4e7e2;
+   height: 100px;
+}
+
+.box-drag-widget2{
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-style: dotted;
+  border-color: #e7e9e6;
+  background-color: #f0f2ef;
+  margin: 10px 10px 8px px;
+  text-align: center;
+  padding: 40px 20px 20px 20px ;
+}
+.x{
+  margin-left: 10px;
+}
+
+/* <!-------------------------------------------- left side section ----------------------------------------> */
+#drop-Widget{
+  background-color: #d5d6d4;
+  padding-top: 10px;
+  border-left: solid;
+  border-color:#acafa9;
+
+}
+.box-notwork-widget{
+  width: 150px;
+  height: 100px;
+  border-style: dotted;
+  border-color: #e7e9e6;
+  background-color: #f0f2ef;
+  margin: 10px 10px 8px 10px;
+  text-align: center;
+  padding: 40px 10px 20px 10px ;
+  display: inline-block;
+}
+.box-notwork-widget2{
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-style: dotted;
+  border-color: #e7e9e6;
+  background-color: #f0f2ef;
+  margin: 10px 10px 8px 100px;
+  text-align: center;
+  padding: 40px 20px 20px 20px ;
+}
+.x-postion{
+  position: absolute;
+  left: 75px;
+  top: 100px;
+}
+
+
+
+.grid-stack-item{
+  background-color: #fff;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: #ebede8;
+
+}
+
+.ui-droppable{
+  background-color:#FFF;
+  border-style: dotted;
+  border-color: #e7e9e6;
+
+  margin-bottom: 50px;
+}
+
+
+.buttons{
+  position: absolute;
+  right: 40px;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+
+
+/* // ***********************************************************charts******************************************* */
+
+
+#chartdiv {
+  width: 100%;
+  height:250px;
+
+
+}
